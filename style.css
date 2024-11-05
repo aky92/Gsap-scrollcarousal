@@ -1,6 +1,5 @@
 .outer{
-    
-
+   
     width:50%;
     
     height: 70%;
@@ -9,25 +8,16 @@
     transform:translate(-50%,-50%);
     position:absolute;
     /* background-color:red; */
-
-
-
 }
 
 .imgcontainer{
-
     height: 100%;
     width:0;
     overflow: hidden;
-  
-  
-   
-
-
-}
+    position: absolute;
+  }
 
 .imgcontainer img{
     height:100%;
      object-fit: cover;
-     position: relative;
 }
